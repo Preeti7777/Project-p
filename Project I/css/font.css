@@ -1,0 +1,38 @@
+        body {
+              background-image: url('../img/hotel-sarowar.jpg');
+              background-repeat: no-repeat;  
+              background-size: cover;
+        }
+
+        h1{
+          background-color: transparent;
+          text-align: center;
+          lor: black;
+          font-size: 120px;
+           padding: 0px;
+        }
+        nav{ 
+            background-color: transparent;
+             text-align: center;
+                
+        }
+        ul {
+           list-style-type: none;
+          background-color: transparent;
+        }
+        a:link, a:visited {
+          background-color: white;
+          color: black;
+          border: 2px solid black;
+          padding: 10px 10px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 25px;
+        }
+
+        a:hover, a:active {
+          background-color: white;
+          color: black;
+          font-size: 300%;
+        }

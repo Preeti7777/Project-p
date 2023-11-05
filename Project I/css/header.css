@@ -1,0 +1,41 @@
+header{
+    padding: 5px;
+/*    background-image: url("../img/hotel-sarowar2.jpg");*/
+    background-repeat: no-repeat;  
+    background-size: cover;
+    margin-bottom: 10px;
+    border: 2px;
+    top: 0; left: 0; right: 0;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+header a:link, a:visited{
+    background-color: white;
+    color: orange;
+    border: 1px solid black;
+    padding: 4px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 40%;
+}
+header a:hover, a:active {
+    background-color: orange;
+    color: white;
+    font-size: 150%;
+}
+header h1{
+    color: black;
+}
